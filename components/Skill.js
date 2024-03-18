@@ -1,57 +1,6 @@
 import Link from "next/link";
 import { useSelector } from "react-redux";
 
-const items = [
-  {
-    id: 1,
-    name: "Figma",
-    image: "assets/images/skills/skill1.png",
-    value: "95",
-  },
-  {
-    id: 2,
-    name: "Framer",
-    image: "assets/images/skills/skill2.png",
-    value: "83",
-  },
-  {
-    id: 3,
-    name: "Photoshop",
-    image: "assets/images/skills/skill3.png",
-    value: "93",
-  },
-  {
-    id: 4,
-    name: "Wordpress",
-    image: "assets/images/skills/skill4.png",
-    value: "84",
-  },
-  {
-    id: 5,
-    name: "Angular",
-    image: "assets/images/skills/skill5.png",
-    value: "65",
-  },
-  {
-    id: 6,
-    name: "Webflow",
-    image: "assets/images/skills/skill6.png",
-    value: "86",
-  },
-  {
-    id: 7,
-    name: "Python",
-    image: "assets/images/skills/skill7.png",
-    value: "62",
-  },
-  {
-    id: 8,
-    name: "Sketch",
-    image: "assets/images/skills/skill8.png",
-    value: "94",
-  },
-];
-
 const Skill = () => {
   const { data } = useSelector((state) => state.data);
 

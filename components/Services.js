@@ -2,38 +2,6 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 
 const Services = ({ extraClass }) => {
-  const services = [
-    {
-      id: 1,
-      title: "Brand Identity Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 2,
-      title: "Website Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 3,
-      title: "Mobile Application Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 4,
-      title: "Motion Graphics Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 5,
-      title: "Website Development",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 6,
-      title: "SEO & Digital Marketing",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-  ];
   const { data } = useSelector((state) => state.data);
 
   return (
